@@ -8,7 +8,7 @@ target 'TODO' do
   # Pods for Timed List
   pod 'FMDB'
 
-  target 'Timed ListTests' do
+  target 'TODOTests' do
     inherit! :search_paths
     # Pods for testing
   end

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		27FC2CA3D5EE42CF13875062 /* libPods-Timed ListTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F77E4E3C664976C00574EB /* libPods-Timed ListTests.a */; };
+		4A9D38F96C58DF8A992B9DD9 /* libPods-TODOTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC150C87BF3BC73468980F3 /* libPods-TODOTests.a */; };
+		71868CC0CBCD4E349BCB791A /* libPods-TODO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF19FC13B703D44E28E54A15 /* libPods-TODO.a */; };
 		957C6D8B1D839F140096932F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 957C6D8A1D839F140096932F /* main.m */; };
 		957C6D8E1D839F140096932F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 957C6D8D1D839F140096932F /* AppDelegate.m */; };
 		957C6D941D839F140096932F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 957C6D921D839F140096932F /* Main.storyboard */; };
@@ -34,9 +36,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		005A21CECAFAB2FC3E5C4ED4 /* Pods-TODO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TODO.release.xcconfig"; path = "Pods/Target Support Files/Pods-TODO/Pods-TODO.release.xcconfig"; sourceTree = "<group>"; };
 		0AAFF8292CDB0E8A5559E10D /* Pods-Timed ListTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Timed ListTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Timed ListTests/Pods-Timed ListTests.release.xcconfig"; sourceTree = "<group>"; };
 		24A437CBB0690A603E4BD7AB /* Pods-Timed List.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Timed List.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Timed List/Pods-Timed List.debug.xcconfig"; sourceTree = "<group>"; };
+		2AC62329973EBE0FB1E32AB5 /* Pods-TODOTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TODOTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TODOTests/Pods-TODOTests.release.xcconfig"; sourceTree = "<group>"; };
+		2DC150C87BF3BC73468980F3 /* libPods-TODOTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TODOTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F19DE5EF0A5CF5099B8A1E1 /* Pods-TODO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TODO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TODO/Pods-TODO.debug.xcconfig"; sourceTree = "<group>"; };
 		5C84AD344D6B28D89568AE5F /* Pods-Timed ListTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Timed ListTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Timed ListTests/Pods-Timed ListTests.debug.xcconfig"; sourceTree = "<group>"; };
+		670D814E87D27433AEC5D10A /* Pods-TODOTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TODOTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TODOTests/Pods-TODOTests.debug.xcconfig"; sourceTree = "<group>"; };
 		957C6D861D839F140096932F /* TODO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TODO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		957C6D8A1D839F140096932F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		957C6D8C1D839F140096932F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -63,6 +70,7 @@
 		A568371E7D3A800139E75E48 /* Pods-Timed List.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Timed List.release.xcconfig"; path = "Pods/Target Support Files/Pods-Timed List/Pods-Timed List.release.xcconfig"; sourceTree = "<group>"; };
 		D1F77E4E3C664976C00574EB /* libPods-Timed ListTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Timed ListTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E305296AC536B15178FCD47A /* libPods-Timed List.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Timed List.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF19FC13B703D44E28E54A15 /* libPods-TODO.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TODO.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +79,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6240DA923E87A547B52EABE /* libPods-Timed List.a in Frameworks */,
+				71868CC0CBCD4E349BCB791A /* libPods-TODO.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +88,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27FC2CA3D5EE42CF13875062 /* libPods-Timed ListTests.a in Frameworks */,
+				4A9D38F96C58DF8A992B9DD9 /* libPods-TODOTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +100,8 @@
 			children = (
 				E305296AC536B15178FCD47A /* libPods-Timed List.a */,
 				D1F77E4E3C664976C00574EB /* libPods-Timed ListTests.a */,
+				FF19FC13B703D44E28E54A15 /* libPods-TODO.a */,
+				2DC150C87BF3BC73468980F3 /* libPods-TODOTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -180,6 +192,10 @@
 				A568371E7D3A800139E75E48 /* Pods-Timed List.release.xcconfig */,
 				5C84AD344D6B28D89568AE5F /* Pods-Timed ListTests.debug.xcconfig */,
 				0AAFF8292CDB0E8A5559E10D /* Pods-Timed ListTests.release.xcconfig */,
+				3F19DE5EF0A5CF5099B8A1E1 /* Pods-TODO.debug.xcconfig */,
+				005A21CECAFAB2FC3E5C4ED4 /* Pods-TODO.release.xcconfig */,
+				670D814E87D27433AEC5D10A /* Pods-TODOTests.debug.xcconfig */,
+				2AC62329973EBE0FB1E32AB5 /* Pods-TODOTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -298,7 +314,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Timed List/Pods-Timed List-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TODO/Pods-TODO-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		1C989D0649F0093D42153040 /* [CP] Copy Pods Resources */ = {
@@ -313,7 +329,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Timed List/Pods-Timed List-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TODO/Pods-TODO-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		2A152D78A4179CBB483ACFA1 /* [CP] Copy Pods Resources */ = {
@@ -328,7 +344,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Timed ListTests/Pods-Timed ListTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TODOTests/Pods-TODOTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		382A916AA49FAFD68444B1CC /* [CP] Check Pods Manifest.lock */ = {
@@ -358,7 +374,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Timed ListTests/Pods-Timed ListTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TODOTests/Pods-TODOTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FDDD9B2B1F84AFFF4DF82CC0 /* [CP] Check Pods Manifest.lock */ = {
@@ -516,7 +532,7 @@
 		};
 		957C6DA91D839F140096932F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24A437CBB0690A603E4BD7AB /* Pods-Timed List.debug.xcconfig */;
+			baseConfigurationReference = 3F19DE5EF0A5CF5099B8A1E1 /* Pods-TODO.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -529,7 +545,7 @@
 		};
 		957C6DAA1D839F140096932F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A568371E7D3A800139E75E48 /* Pods-Timed List.release.xcconfig */;
+			baseConfigurationReference = 005A21CECAFAB2FC3E5C4ED4 /* Pods-TODO.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -542,7 +558,7 @@
 		};
 		957C6DAC1D839F140096932F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C84AD344D6B28D89568AE5F /* Pods-Timed ListTests.debug.xcconfig */;
+			baseConfigurationReference = 670D814E87D27433AEC5D10A /* Pods-TODOTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Timed ListTests/Info.plist";
@@ -555,7 +571,7 @@
 		};
 		957C6DAD1D839F140096932F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0AAFF8292CDB0E8A5559E10D /* Pods-Timed ListTests.release.xcconfig */;
+			baseConfigurationReference = 2AC62329973EBE0FB1E32AB5 /* Pods-TODOTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Timed ListTests/Info.plist";

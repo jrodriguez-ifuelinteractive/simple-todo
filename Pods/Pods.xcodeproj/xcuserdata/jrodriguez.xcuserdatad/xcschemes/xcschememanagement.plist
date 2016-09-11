@@ -8,32 +8,26 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>1</integer>
 		</dict>
-		<key>Pods-Timed List.xcscheme</key>
+		<key>Pods-TODO.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>2</integer>
 		</dict>
-		<key>Pods-Timed ListTests.xcscheme</key>
+		<key>Pods-TODOTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>3</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>70D1C735D1428D9025DFC60517A380E4</key>
+		<key>710B1DF809DECA6B9EA949BD50836C67</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>87973539D147079D609AF437F3EE20D0</key>
+		<key>9A027A70849431BFAD5727774715BA5E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
