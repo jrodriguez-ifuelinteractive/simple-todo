@@ -1,6 +1,6 @@
 # simple-todo
 
-Simple todo application that supports multiple lists. backed with SQLite and basic UI views.
+Simple todo application that supports multiple lists backed with SQLite and basic UI views.
 
 ## Lists screen
 <img src="https://github.com/jrodriguez-ifuelinteractive/simple-todo/raw/master/Readme/lists.png" height="480" />
