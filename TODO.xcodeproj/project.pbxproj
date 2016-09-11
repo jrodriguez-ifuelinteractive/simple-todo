@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27FC2CA3D5EE42CF13875062 /* libPods-Timed ListTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F77E4E3C664976C00574EB /* libPods-Timed ListTests.a */; };
 		957C6D8B1D839F140096932F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 957C6D8A1D839F140096932F /* main.m */; };
 		957C6D8E1D839F140096932F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 957C6D8D1D839F140096932F /* AppDelegate.m */; };
-		957C6D911D839F140096932F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 957C6D901D839F140096932F /* ViewController.m */; };
 		957C6D941D839F140096932F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 957C6D921D839F140096932F /* Main.storyboard */; };
 		957C6D961D839F140096932F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 957C6D951D839F140096932F /* Assets.xcassets */; };
 		957C6D991D839F140096932F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 957C6D971D839F140096932F /* LaunchScreen.storyboard */; };
 		957C6DA41D839F140096932F /* Timed_ListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 957C6DA31D839F140096932F /* Timed_ListTests.m */; };
+		957C6DB01D839F750096932F /* ItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 957C6DAF1D839F750096932F /* ItemsViewController.m */; };
+		95D596DF1D83A93D004400C4 /* Datastore.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D596DE1D83A93D004400C4 /* Datastore.m */; };
+		95D596E51D845887004400C4 /* List.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D596E41D845887004400C4 /* List.m */; };
+		95D596E91D84B82A004400C4 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D596E81D84B82A004400C4 /* ListViewController.m */; };
+		95D596F11D84E665004400C4 /* ListItemsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D596F01D84E665004400C4 /* ListItemsTableViewController.m */; };
+		95D596F41D84EF08004400C4 /* ListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D596F31D84EF08004400C4 /* ListItem.m */; };
+		F6240DA923E87A547B52EABE /* libPods-Timed List.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E305296AC536B15178FCD47A /* libPods-Timed List.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +34,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		957C6D861D839F140096932F /* Timed List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Timed List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AAFF8292CDB0E8A5559E10D /* Pods-Timed ListTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Timed ListTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Timed ListTests/Pods-Timed ListTests.release.xcconfig"; sourceTree = "<group>"; };
+		24A437CBB0690A603E4BD7AB /* Pods-Timed List.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Timed List.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Timed List/Pods-Timed List.debug.xcconfig"; sourceTree = "<group>"; };
+		5C84AD344D6B28D89568AE5F /* Pods-Timed ListTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Timed ListTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Timed ListTests/Pods-Timed ListTests.debug.xcconfig"; sourceTree = "<group>"; };
+		957C6D861D839F140096932F /* TODO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TODO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		957C6D8A1D839F140096932F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		957C6D8C1D839F140096932F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		957C6D8D1D839F140096932F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		957C6D8F1D839F140096932F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		957C6D901D839F140096932F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		957C6D931D839F140096932F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		957C6D951D839F140096932F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		957C6D981D839F140096932F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		957C6D9A1D839F140096932F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		957C6D9F1D839F140096932F /* Timed ListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Timed ListTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		957C6D9F1D839F140096932F /* TODO.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TODO.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		957C6DA31D839F140096932F /* Timed_ListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Timed_ListTests.m; sourceTree = "<group>"; };
 		957C6DA51D839F140096932F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		957C6DAE1D839F750096932F /* ItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemsViewController.h; sourceTree = "<group>"; };
+		957C6DAF1D839F750096932F /* ItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemsViewController.m; sourceTree = "<group>"; };
+		95D596DD1D83A93D004400C4 /* Datastore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Datastore.h; sourceTree = "<group>"; };
+		95D596DE1D83A93D004400C4 /* Datastore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Datastore.m; sourceTree = "<group>"; };
+		95D596E31D845887004400C4 /* List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
+		95D596E41D845887004400C4 /* List.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = List.m; sourceTree = "<group>"; };
+		95D596E71D84B82A004400C4 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		95D596E81D84B82A004400C4 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		95D596EF1D84E665004400C4 /* ListItemsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListItemsTableViewController.h; sourceTree = "<group>"; };
+		95D596F01D84E665004400C4 /* ListItemsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListItemsTableViewController.m; sourceTree = "<group>"; };
+		95D596F21D84EF08004400C4 /* ListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListItem.h; sourceTree = "<group>"; };
+		95D596F31D84EF08004400C4 /* ListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListItem.m; sourceTree = "<group>"; };
+		A568371E7D3A800139E75E48 /* Pods-Timed List.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Timed List.release.xcconfig"; path = "Pods/Target Support Files/Pods-Timed List/Pods-Timed List.release.xcconfig"; sourceTree = "<group>"; };
+		D1F77E4E3C664976C00574EB /* libPods-Timed ListTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Timed ListTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E305296AC536B15178FCD47A /* libPods-Timed List.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Timed List.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6240DA923E87A547B52EABE /* libPods-Timed List.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,26 +78,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27FC2CA3D5EE42CF13875062 /* libPods-Timed ListTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32AB54E5A6A6EBB0DE33DF3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E305296AC536B15178FCD47A /* libPods-Timed List.a */,
+				D1F77E4E3C664976C00574EB /* libPods-Timed ListTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		957C6D7D1D839F140096932F = {
 			isa = PBXGroup;
 			children = (
 				957C6D881D839F140096932F /* Timed List */,
 				957C6DA21D839F140096932F /* Timed ListTests */,
 				957C6D871D839F140096932F /* Products */,
+				974737A9FB184756D8B7C8C7 /* Pods */,
+				32AB54E5A6A6EBB0DE33DF3D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		957C6D871D839F140096932F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				957C6D861D839F140096932F /* Timed List.app */,
-				957C6D9F1D839F140096932F /* Timed ListTests.xctest */,
+				957C6D861D839F140096932F /* TODO.app */,
+				957C6D9F1D839F140096932F /* TODO.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,10 +117,10 @@
 		957C6D881D839F140096932F /* Timed List */ = {
 			isa = PBXGroup;
 			children = (
+				95D596E61D84B7AA004400C4 /* View Controllers */,
+				95D596DC1D83A91A004400C4 /* Persistance */,
 				957C6D8C1D839F140096932F /* AppDelegate.h */,
 				957C6D8D1D839F140096932F /* AppDelegate.m */,
-				957C6D8F1D839F140096932F /* ViewController.h */,
-				957C6D901D839F140096932F /* ViewController.m */,
 				957C6D921D839F140096932F /* Main.storyboard */,
 				957C6D951D839F140096932F /* Assets.xcassets */,
 				957C6D971D839F140096932F /* LaunchScreen.storyboard */,
@@ -111,42 +147,85 @@
 			path = "Timed ListTests";
 			sourceTree = "<group>";
 		};
+		95D596DC1D83A91A004400C4 /* Persistance */ = {
+			isa = PBXGroup;
+			children = (
+				95D596DD1D83A93D004400C4 /* Datastore.h */,
+				95D596DE1D83A93D004400C4 /* Datastore.m */,
+				95D596E31D845887004400C4 /* List.h */,
+				95D596E41D845887004400C4 /* List.m */,
+				95D596F21D84EF08004400C4 /* ListItem.h */,
+				95D596F31D84EF08004400C4 /* ListItem.m */,
+			);
+			name = Persistance;
+			sourceTree = "<group>";
+		};
+		95D596E61D84B7AA004400C4 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				957C6DAE1D839F750096932F /* ItemsViewController.h */,
+				957C6DAF1D839F750096932F /* ItemsViewController.m */,
+				95D596E71D84B82A004400C4 /* ListViewController.h */,
+				95D596E81D84B82A004400C4 /* ListViewController.m */,
+				95D596EF1D84E665004400C4 /* ListItemsTableViewController.h */,
+				95D596F01D84E665004400C4 /* ListItemsTableViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		974737A9FB184756D8B7C8C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24A437CBB0690A603E4BD7AB /* Pods-Timed List.debug.xcconfig */,
+				A568371E7D3A800139E75E48 /* Pods-Timed List.release.xcconfig */,
+				5C84AD344D6B28D89568AE5F /* Pods-Timed ListTests.debug.xcconfig */,
+				0AAFF8292CDB0E8A5559E10D /* Pods-Timed ListTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		957C6D851D839F140096932F /* Timed List */ = {
+		957C6D851D839F140096932F /* TODO */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 957C6DA81D839F140096932F /* Build configuration list for PBXNativeTarget "Timed List" */;
+			buildConfigurationList = 957C6DA81D839F140096932F /* Build configuration list for PBXNativeTarget "TODO" */;
 			buildPhases = (
+				FDDD9B2B1F84AFFF4DF82CC0 /* [CP] Check Pods Manifest.lock */,
 				957C6D821D839F140096932F /* Sources */,
 				957C6D831D839F140096932F /* Frameworks */,
 				957C6D841D839F140096932F /* Resources */,
+				0D5166B3802C86770273DA69 /* [CP] Embed Pods Frameworks */,
+				1C989D0649F0093D42153040 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Timed List";
+			name = TODO;
 			productName = "Timed List";
-			productReference = 957C6D861D839F140096932F /* Timed List.app */;
+			productReference = 957C6D861D839F140096932F /* TODO.app */;
 			productType = "com.apple.product-type.application";
 		};
-		957C6D9E1D839F140096932F /* Timed ListTests */ = {
+		957C6D9E1D839F140096932F /* TODOTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 957C6DAB1D839F140096932F /* Build configuration list for PBXNativeTarget "Timed ListTests" */;
+			buildConfigurationList = 957C6DAB1D839F140096932F /* Build configuration list for PBXNativeTarget "TODOTests" */;
 			buildPhases = (
+				382A916AA49FAFD68444B1CC /* [CP] Check Pods Manifest.lock */,
 				957C6D9B1D839F140096932F /* Sources */,
 				957C6D9C1D839F140096932F /* Frameworks */,
 				957C6D9D1D839F140096932F /* Resources */,
+				C5D63C1CB5FF898CF8F2B662 /* [CP] Embed Pods Frameworks */,
+				2A152D78A4179CBB483ACFA1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				957C6DA11D839F140096932F /* PBXTargetDependency */,
 			);
-			name = "Timed ListTests";
+			name = TODOTests;
 			productName = "Timed ListTests";
-			productReference = 957C6D9F1D839F140096932F /* Timed ListTests.xctest */;
+			productReference = 957C6D9F1D839F140096932F /* TODO.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -167,7 +246,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 957C6D811D839F140096932F /* Build configuration list for PBXProject "Timed List" */;
+			buildConfigurationList = 957C6D811D839F140096932F /* Build configuration list for PBXProject "TODO" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -180,8 +259,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				957C6D851D839F140096932F /* Timed List */,
-				957C6D9E1D839F140096932F /* Timed ListTests */,
+				957C6D851D839F140096932F /* TODO */,
+				957C6D9E1D839F140096932F /* TODOTests */,
 			);
 		};
 /* End PBXProject section */
@@ -206,13 +285,111 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D5166B3802C86770273DA69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Timed List/Pods-Timed List-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C989D0649F0093D42153040 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Timed List/Pods-Timed List-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A152D78A4179CBB483ACFA1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Timed ListTests/Pods-Timed ListTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		382A916AA49FAFD68444B1CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C5D63C1CB5FF898CF8F2B662 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Timed ListTests/Pods-Timed ListTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDDD9B2B1F84AFFF4DF82CC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		957C6D821D839F140096932F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				957C6D911D839F140096932F /* ViewController.m in Sources */,
+				95D596E51D845887004400C4 /* List.m in Sources */,
+				95D596F41D84EF08004400C4 /* ListItem.m in Sources */,
+				95D596E91D84B82A004400C4 /* ListViewController.m in Sources */,
+				95D596DF1D83A93D004400C4 /* Datastore.m in Sources */,
+				957C6DB01D839F750096932F /* ItemsViewController.m in Sources */,
 				957C6D8E1D839F140096932F /* AppDelegate.m in Sources */,
+				95D596F11D84E665004400C4 /* ListItemsTableViewController.m in Sources */,
 				957C6D8B1D839F140096932F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,7 +407,7 @@
 /* Begin PBXTargetDependency section */
 		957C6DA11D839F140096932F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 957C6D851D839F140096932F /* Timed List */;
+			target = 957C6D851D839F140096932F /* TODO */;
 			targetProxy = 957C6DA01D839F140096932F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -339,46 +516,52 @@
 		};
 		957C6DA91D839F140096932F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24A437CBB0690A603E4BD7AB /* Pods-Timed List.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Timed List/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jesuserodriguez.app.Timed-List";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TODO;
 			};
 			name = Debug;
 		};
 		957C6DAA1D839F140096932F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A568371E7D3A800139E75E48 /* Pods-Timed List.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Timed List/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jesuserodriguez.app.Timed-List";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TODO;
 			};
 			name = Release;
 		};
 		957C6DAC1D839F140096932F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C84AD344D6B28D89568AE5F /* Pods-Timed ListTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Timed ListTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jesuserodriguez.app.Timed-ListTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TODO;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Timed List.app/Timed List";
 			};
 			name = Debug;
 		};
 		957C6DAD1D839F140096932F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AAFF8292CDB0E8A5559E10D /* Pods-Timed ListTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Timed ListTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jesuserodriguez.app.Timed-ListTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TODO;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Timed List.app/Timed List";
 			};
 			name = Release;
@@ -386,7 +569,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		957C6D811D839F140096932F /* Build configuration list for PBXProject "Timed List" */ = {
+		957C6D811D839F140096932F /* Build configuration list for PBXProject "TODO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				957C6DA61D839F140096932F /* Debug */,
@@ -395,21 +578,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		957C6DA81D839F140096932F /* Build configuration list for PBXNativeTarget "Timed List" */ = {
+		957C6DA81D839F140096932F /* Build configuration list for PBXNativeTarget "TODO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				957C6DA91D839F140096932F /* Debug */,
 				957C6DAA1D839F140096932F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		957C6DAB1D839F140096932F /* Build configuration list for PBXNativeTarget "Timed ListTests" */ = {
+		957C6DAB1D839F140096932F /* Build configuration list for PBXNativeTarget "TODOTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				957C6DAC1D839F140096932F /* Debug */,
 				957C6DAD1D839F140096932F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
