@@ -33,7 +33,7 @@ const int kLoadingCellTag2 = 1378;
     
     // Create Datastore
     self.store = [[Datastore alloc] init];
-    [self.store createDatabase];
+    [self.store openDatabase];
     
     // Create empty array
     self.items = [NSMutableArray array];
