@@ -2,6 +2,8 @@
 
 Simple todo application that supports multiple lists backed with SQLite and basic UI views.
 
+*Project is for reference (I forget things)*
+
 ## Lists screen
 <img src="https://github.com/jrodriguez-ifuelinteractive/simple-todo/raw/master/Readme/lists.png" height="480" />
 <img src="https://github.com/jrodriguez-ifuelinteractive/simple-todo/raw/master/Readme/add_list.png" height="480" />
