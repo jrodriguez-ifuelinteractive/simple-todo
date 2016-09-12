@@ -17,6 +17,7 @@
 		957C6D991D839F140096932F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 957C6D971D839F140096932F /* LaunchScreen.storyboard */; };
 		957C6DA41D839F140096932F /* Timed_ListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 957C6DA31D839F140096932F /* Timed_ListTests.m */; };
 		957C6DB01D839F750096932F /* ItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 957C6DAF1D839F750096932F /* ItemsViewController.m */; };
+		959BD5441D8621F700DB640C /* JERActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 959BD5431D8621F700DB640C /* JERActionSheet.m */; };
 		95D596DF1D83A93D004400C4 /* Datastore.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D596DE1D83A93D004400C4 /* Datastore.m */; };
 		95D596E51D845887004400C4 /* List.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D596E41D845887004400C4 /* List.m */; };
 		95D596E91D84B82A004400C4 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D596E81D84B82A004400C4 /* ListViewController.m */; };
@@ -57,6 +58,8 @@
 		957C6DA51D839F140096932F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		957C6DAE1D839F750096932F /* ItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemsViewController.h; sourceTree = "<group>"; };
 		957C6DAF1D839F750096932F /* ItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemsViewController.m; sourceTree = "<group>"; };
+		959BD5421D8621F700DB640C /* JERActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JERActionSheet.h; sourceTree = "<group>"; };
+		959BD5431D8621F700DB640C /* JERActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JERActionSheet.m; sourceTree = "<group>"; };
 		95D596DD1D83A93D004400C4 /* Datastore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Datastore.h; sourceTree = "<group>"; };
 		95D596DE1D83A93D004400C4 /* Datastore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Datastore.m; sourceTree = "<group>"; };
 		95D596E31D845887004400C4 /* List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
@@ -129,6 +132,7 @@
 		957C6D881D839F140096932F /* Timed List */ = {
 			isa = PBXGroup;
 			children = (
+				959BD5411D8621D700DB640C /* Models */,
 				95D596E61D84B7AA004400C4 /* View Controllers */,
 				95D596DC1D83A91A004400C4 /* Persistance */,
 				957C6D8C1D839F140096932F /* AppDelegate.h */,
@@ -157,6 +161,15 @@
 				957C6DA51D839F140096932F /* Info.plist */,
 			);
 			path = "Timed ListTests";
+			sourceTree = "<group>";
+		};
+		959BD5411D8621D700DB640C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				959BD5421D8621F700DB640C /* JERActionSheet.h */,
+				959BD5431D8621F700DB640C /* JERActionSheet.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 		95D596DC1D83A91A004400C4 /* Persistance */ = {
@@ -405,6 +418,7 @@
 				95D596DF1D83A93D004400C4 /* Datastore.m in Sources */,
 				957C6DB01D839F750096932F /* ItemsViewController.m in Sources */,
 				957C6D8E1D839F140096932F /* AppDelegate.m in Sources */,
+				959BD5441D8621F700DB640C /* JERActionSheet.m in Sources */,
 				95D596F11D84E665004400C4 /* ListItemsTableViewController.m in Sources */,
 				957C6D8B1D839F140096932F /* main.m in Sources */,
 			);

@@ -12,6 +12,7 @@
 #import "Datastore.h"
 #import "List.h"
 #import "FMResultSet.h"
+#import "JERActionSheet.h"
 
 const int kLoadingCellTag = 1337;
 
@@ -115,12 +116,23 @@ const int kLoadingCellTag = 1337;
     
     if (editingStyle == UITableViewCellEditingStyleDelete) {
         List *list = [self.lists objectAtIndex: indexPath.row];
-        NSString *listIdString = [NSString stringWithFormat:@"%ld", list.listId];
-        if ([self.store.db executeUpdate:@"DELETE FROM lists WHERE id = ?", listIdString]) {
-            [self.store.db executeUpdate:@"DELETE FROM list_items WHERE list_id = ?", listIdString];
-            [self.lists removeObjectAtIndex:indexPath.row];
-            [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
-        }
+        JERActionSheet *alert = [[JERActionSheet alloc] initWithTitle:[NSString stringWithFormat:@"\"%@\" will be deleted forever.", list.title]
+                                                               message:nil];
+        [alert addDestructiveActionWithTitle:@"Delete List"
+                                      handler:^(UIAlertAction * action) {
+                                          NSString *listIdString = [NSString stringWithFormat:@"%ld", list.listId];
+                                          if ([self.store.db executeUpdate:@"DELETE FROM lists WHERE id = ?", listIdString]) {
+                                              [self.store.db executeUpdate:@"DELETE FROM list_items WHERE list_id = ?", listIdString];
+                                              [self.lists removeObjectAtIndex:indexPath.row];
+                                              [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
+                                          }
+                                      }];
+        [alert addCancelActionWithTitle:@"Cancel"
+                                handler:^(UIAlertAction * action) {
+                                    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+                                }];
+        
+        [self presentViewController:[alert actionSheet] animated:YES completion:nil];
     }
     
 }

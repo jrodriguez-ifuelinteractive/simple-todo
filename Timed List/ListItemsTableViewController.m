@@ -12,6 +12,7 @@
 #import "Datastore.h"
 #import "ListItem.h"
 #import "FMResultSet.h"
+#import "JERActionSheet.h"
 
 const int kLoadingCellTag2 = 1378;
 
@@ -130,6 +131,10 @@ const int kLoadingCellTag2 = 1378;
         }
     }
     
+}
+
+-(NSString *)tableView:(UITableView *)tableView titleForDeleteConfirmationButtonForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return @"Done!";
 }
 
 #pragma mark - Segue
