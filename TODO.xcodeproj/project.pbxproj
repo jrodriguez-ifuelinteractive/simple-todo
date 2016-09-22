@@ -10,6 +10,8 @@
 		27FC2CA3D5EE42CF13875062 /* libPods-Timed ListTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F77E4E3C664976C00574EB /* libPods-Timed ListTests.a */; };
 		4A9D38F96C58DF8A992B9DD9 /* libPods-TODOTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC150C87BF3BC73468980F3 /* libPods-TODOTests.a */; };
 		71868CC0CBCD4E349BCB791A /* libPods-TODO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF19FC13B703D44E28E54A15 /* libPods-TODO.a */; };
+		953CFA881D93810F009A41C3 /* JERDimView.m in Sources */ = {isa = PBXBuildFile; fileRef = 953CFA871D93810F009A41C3 /* JERDimView.m */; };
+		954EB96D1D91CD920024ABD3 /* AddItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 954EB96C1D91CD920024ABD3 /* AddItemViewController.m */; };
 		957C6D8B1D839F140096932F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 957C6D8A1D839F140096932F /* main.m */; };
 		957C6D8E1D839F140096932F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 957C6D8D1D839F140096932F /* AppDelegate.m */; };
 		957C6D941D839F140096932F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 957C6D921D839F140096932F /* Main.storyboard */; };
@@ -20,7 +22,6 @@
 		959BD5441D8621F700DB640C /* JERActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 959BD5431D8621F700DB640C /* JERActionSheet.m */; };
 		95D596DF1D83A93D004400C4 /* Datastore.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D596DE1D83A93D004400C4 /* Datastore.m */; };
 		95D596E51D845887004400C4 /* List.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D596E41D845887004400C4 /* List.m */; };
-		95D596E91D84B82A004400C4 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D596E81D84B82A004400C4 /* ListViewController.m */; };
 		95D596F11D84E665004400C4 /* ListItemsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D596F01D84E665004400C4 /* ListItemsTableViewController.m */; };
 		95D596F41D84EF08004400C4 /* ListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D596F31D84EF08004400C4 /* ListItem.m */; };
 		F6240DA923E87A547B52EABE /* libPods-Timed List.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E305296AC536B15178FCD47A /* libPods-Timed List.a */; };
@@ -45,6 +46,11 @@
 		3F19DE5EF0A5CF5099B8A1E1 /* Pods-TODO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TODO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TODO/Pods-TODO.debug.xcconfig"; sourceTree = "<group>"; };
 		5C84AD344D6B28D89568AE5F /* Pods-Timed ListTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Timed ListTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Timed ListTests/Pods-Timed ListTests.debug.xcconfig"; sourceTree = "<group>"; };
 		670D814E87D27433AEC5D10A /* Pods-TODOTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TODOTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TODOTests/Pods-TODOTests.debug.xcconfig"; sourceTree = "<group>"; };
+		953CFA861D93810F009A41C3 /* JERDimView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JERDimView.h; sourceTree = "<group>"; };
+		953CFA871D93810F009A41C3 /* JERDimView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JERDimView.m; sourceTree = "<group>"; };
+		954EB96B1D91CD920024ABD3 /* AddItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddItemViewController.h; sourceTree = "<group>"; };
+		954EB96C1D91CD920024ABD3 /* AddItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddItemViewController.m; sourceTree = "<group>"; };
+		954EB9711D920CFA0024ABD3 /* JERUIViewControllerPresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JERUIViewControllerPresentation.h; sourceTree = "<group>"; };
 		957C6D861D839F140096932F /* TODO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TODO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		957C6D8A1D839F140096932F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		957C6D8C1D839F140096932F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -64,8 +70,6 @@
 		95D596DE1D83A93D004400C4 /* Datastore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Datastore.m; sourceTree = "<group>"; };
 		95D596E31D845887004400C4 /* List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
 		95D596E41D845887004400C4 /* List.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = List.m; sourceTree = "<group>"; };
-		95D596E71D84B82A004400C4 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
-		95D596E81D84B82A004400C4 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
 		95D596EF1D84E665004400C4 /* ListItemsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListItemsTableViewController.h; sourceTree = "<group>"; };
 		95D596F01D84E665004400C4 /* ListItemsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListItemsTableViewController.m; sourceTree = "<group>"; };
 		95D596F21D84EF08004400C4 /* ListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListItem.h; sourceTree = "<group>"; };
@@ -168,6 +172,9 @@
 			children = (
 				959BD5421D8621F700DB640C /* JERActionSheet.h */,
 				959BD5431D8621F700DB640C /* JERActionSheet.m */,
+				954EB9711D920CFA0024ABD3 /* JERUIViewControllerPresentation.h */,
+				953CFA861D93810F009A41C3 /* JERDimView.h */,
+				953CFA871D93810F009A41C3 /* JERDimView.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -190,10 +197,10 @@
 			children = (
 				957C6DAE1D839F750096932F /* ItemsViewController.h */,
 				957C6DAF1D839F750096932F /* ItemsViewController.m */,
-				95D596E71D84B82A004400C4 /* ListViewController.h */,
-				95D596E81D84B82A004400C4 /* ListViewController.m */,
 				95D596EF1D84E665004400C4 /* ListItemsTableViewController.h */,
 				95D596F01D84E665004400C4 /* ListItemsTableViewController.m */,
+				954EB96B1D91CD920024ABD3 /* AddItemViewController.h */,
+				954EB96C1D91CD920024ABD3 /* AddItemViewController.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -268,6 +275,7 @@
 				TargetAttributes = {
 					957C6D851D839F140096932F = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9964ZUU393;
 					};
 					957C6D9E1D839F140096932F = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -414,7 +422,8 @@
 			files = (
 				95D596E51D845887004400C4 /* List.m in Sources */,
 				95D596F41D84EF08004400C4 /* ListItem.m in Sources */,
-				95D596E91D84B82A004400C4 /* ListViewController.m in Sources */,
+				954EB96D1D91CD920024ABD3 /* AddItemViewController.m in Sources */,
+				953CFA881D93810F009A41C3 /* JERDimView.m in Sources */,
 				95D596DF1D83A93D004400C4 /* Datastore.m in Sources */,
 				957C6DB01D839F750096932F /* ItemsViewController.m in Sources */,
 				957C6D8E1D839F140096932F /* AppDelegate.m in Sources */,
@@ -550,6 +559,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9964ZUU393;
 				INFOPLIST_FILE = "Timed List/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jesuserodriguez.app.Timed-List";
@@ -563,6 +573,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9964ZUU393;
 				INFOPLIST_FILE = "Timed List/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jesuserodriguez.app.Timed-List";

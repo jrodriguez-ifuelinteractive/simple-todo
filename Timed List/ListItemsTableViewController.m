@@ -8,11 +8,11 @@
 
 #import "ListItemsTableViewController.h"
 #import "ItemsViewController.h"
-#import "ListViewController.h"
 #import "Datastore.h"
 #import "ListItem.h"
 #import "FMResultSet.h"
 #import "JERActionSheet.h"
+#import "AddItemViewController.h"
 
 const int kLoadingCellTag2 = 1378;
 
@@ -26,12 +26,6 @@ const int kLoadingCellTag2 = 1378;
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    
     // Create Datastore
     self.store = [[Datastore alloc] init];
     [self.store openDatabase];
@@ -40,6 +34,8 @@ const int kLoadingCellTag2 = 1378;
     self.items = [NSMutableArray array];
     
     _currentPage = 0;
+    
+    self.dimView = [[JERDimView alloc] initWithViewController:self.navigationController];
 
 }
 
@@ -141,12 +137,21 @@ const int kLoadingCellTag2 = 1378;
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if ([segue.identifier isEqual: @"AddListItemSegue"]) {
-        ListViewController *vc = [[[segue destinationViewController] childViewControllers] firstObject];
-        
+        AddItemViewController *vc = [segue destinationViewController];
+        vc.customDelegate = self;
         vc.list = self.list;
         vc.segueAction = @"AddListItemSegue";
+        
+        [self.dimView displayDimView];
     }
 }
+
+- (void)dismissViewController {
+    [self fetchItems];
+    [self.dimView removeDimView];
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
 
 #pragma mark - Fetching
 

@@ -8,13 +8,16 @@
 
 #import <UIKit/UIKit.h>
 #import "List.h"
+#import "JERUIViewControllerPresentation.h"
+#import "JERDimView.h"
 
-@interface ListItemsTableViewController : UITableViewController {
+@interface ListItemsTableViewController : UITableViewController <JERUIViewControllerPresentation> {
     NSInteger _currentPage;
     NSInteger _totalPages;
 }
 
 @property (nonatomic, retain) List *list;
+@property (nonatomic, strong) JERDimView *dimView;
 
 - (void)fetchItems;
 - (void)setList:(List *)list;

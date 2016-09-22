@@ -8,11 +8,11 @@
 
 #import "ItemsViewController.h"
 #import "ListItemsTableViewController.h"
-#import "ListViewController.h"
 #import "Datastore.h"
 #import "List.h"
 #import "FMResultSet.h"
 #import "JERActionSheet.h"
+#import "AddItemViewController.h"
 
 const int kLoadingCellTag = 1337;
 
@@ -34,6 +34,8 @@ const int kLoadingCellTag = 1337;
     self.lists = [NSMutableArray array];
     
     _currentPage = 0;
+    
+    self.dimView = [[JERDimView alloc] initWithViewController:self.navigationController];
     
 }
 
@@ -140,17 +142,27 @@ const int kLoadingCellTag = 1337;
 #pragma mark - Segue
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    
     if ([segue.identifier isEqual: @"ListItemsSegue"]) {
         ListItemsTableViewController *vc = [segue destinationViewController];
         
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         List *list = [self.lists objectAtIndex: indexPath.row];
-        
         vc.list = list;
+        
     } else if ([[segue identifier] isEqualToString:@"AddListItem"]) {
-        ListViewController *vc = [[[segue destinationViewController] childViewControllers] firstObject];
+        AddItemViewController *vc = [segue destinationViewController];
+        vc.customDelegate = self;
         vc.segueAction = @"AddListItem";
+        
+        [self.dimView displayDimView];
     }
+}
+
+- (void)dismissViewController {
+    [self fetchItems];
+    [self.dimView removeDimView];
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 #pragma mark - Fetching
@@ -181,5 +193,6 @@ const int kLoadingCellTag = 1337;
     [self.tableView reloadData];
     
 }
+
 
 @end
